@@ -34,7 +34,7 @@ function sendNumberValue(number) {
 }
 
 function addDecimal() {
-    // iff operator pressed, dont decimal
+    // if operator pressed, dont decimal
     if (awaitingNextValue) return;
     // if no decimal, add one
     if (!calculatorDisplay.textContent.includes(".")) {
